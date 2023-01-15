@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+/* navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.nav-title {
+    padding-left: 100px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.nav-ul {
+    display: flex;
+    padding-right: 130px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* header */
+header {
+    background-color: #f3d8bb;
+    width: 100%;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 862px;
+    margin: 0 17%;
+    margin-top: 102px;
+}
+
+.header-h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.header-para {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #727272;
+}
+
+.btn {
+    width: 180px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #FF900E;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 340px;
+    margin-top: 43px;
+}
+
+/* banner image */
+.banner-img {
+    width: 1140px;
+    height: 560px;
+    margin-left: 7.7%;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+/* main */
+.container {
+    display: flex;
+    margin: 0 7.9%;
+    width: 85%;
+    gap: 50px;
+    margin-top: 130px;
+}
+
+.grid-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.team {
+    height: 322px;
+    width: 322px;
+}
+
+.team-text {
+    margin-top: 200px;
+}
+
+.team-h2 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.span1 {
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.span2 {
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.team-para {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 21px;
+}
+
+.btn2 {
+    width: 180px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #FF900E;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 32px;
+}
+
+/* featur */
+.featur-h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+}
+
+.featur-para {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+
+.featur-h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-top: 67px;
+    padding-left: 20px;
+}
+
+.featur-h3-para {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 14px;
+    padding-left: 20px;
+}
+
+.btn3 {
+    width: 180px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #FF900E;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 43%;
+    margin-top: 50px;
+}
+
+/* facts */
+.container2 {
+    width: 87%;
+    margin-left: 7.5%;
+}
+
+.fact-title {
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.fact-para {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 25px;
+}
+
+/* credit boxes */
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 90px;
+    margin-top: 100px;
+}
+
+.box {
+    border: 2px solid orange;
+    border-radius: 8px;
+    padding: 30px;
+}
+.box:hover{
+    width: 150px;
+    background-color: #f3d8bb;
+    height: 135px;
+    transform: rotate(360deg);
+    transition: 1s ease-out 0.1s;
+}
+
+.credit-img {
+    margin-left: 57px;
+}
+
+.img-h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.img-para {
+    text-align: center;
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 5px;
+
+}
+
+/* sponsors */
+.sponsor-h2 {
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.sponsor-para {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 25px;
+}
+.sponsors {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    /* margin-left: 2%; */
+}
+
+/* footer */
+.footer {
+    background-color: #f3d8bb;
+    height: 60px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.footer-para {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 688px) {
+    header {
+        background-color: white;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+    .nav-title{
+        margin-left: 85%;
+        width: 500px;
+    }
+    .nav-li{
+        margin-left: 320%;
+    }
+    .nav-ul {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    nav li {
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 90%;
+    }
+    .header-info{
+        margin-left: 35%;
+    }
+    .banner-img{
+        width: 1000px;
+        margin-left: 11%;
+    }
+
+    .container,
+    .container2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team {
+        width: 520px;
+        height: 520px;
+    }
+
+    .team-text {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .team-h2,
+    .team-para,
+    .featur-h2,
+    .featur-h3,
+    .featur-h3-para,
+    .featur-para,
+    .fact-para,
+    .fact-title,
+    .sponsor-h2,
+    .sponsor-para {
+        text-align: center;
+    }
+
+    .btn2 {
+        margin-left: 37%;
+    }
+
+    .btn3 {
+        margin-left: 500px;
+    }
+
+    .featur-text {
+        margin-left: 49%;
+    }
+
+    .featur-img {
+        margin-left: 30%;
+    }
+    .container2{
+        margin-left: 98%;
+    }
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .credit-img {
+        margin-left: 117px;
+    }
+    .sponsor-title{
+        width: 100%;
+        margin-left: 90%;
+    }
+    .sponsors{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sponsor{
+        margin-top: 20px;
+        margin-left: 90%;
+    }
+    .footer{
+        width: 900px;
+        margin-left: 25%;
+    }
+}
